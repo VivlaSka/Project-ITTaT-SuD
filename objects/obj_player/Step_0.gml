@@ -29,5 +29,3 @@ if(place_meeting(x, y + verSpeed, obj_ground_mid)){
 
 y = y + verSpeed;
 
-var test = "Hello";
-//This is a test to see if the commits workd

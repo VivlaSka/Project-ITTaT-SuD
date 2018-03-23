@@ -28,4 +28,8 @@ if(place_meeting(x, y + verSpeed, obj_ground_mid)){
 }
 
 y = y + verSpeed;
-
+ 
+if(horSpeed != 0) {
+	image_xscale = sign(horSpeed);
+	sprite_index = spr_player;
+}

@@ -9,7 +9,7 @@
     "bbox_bottom": 86,
     "bbox_left": 27,
     "bbox_right": 103,
-    "bbox_top": 60,
+    "bbox_top": 54,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
@@ -34,6 +34,13 @@
                     "mvc": "1.0",
                     "FrameId": "b482853c-8eb1-4f4b-9d79-b5cc4326ec18",
                     "LayerId": "a4a4c45d-5e2c-4f8f-b854-3b9bad33b8aa"
+                },
+                {
+                    "id": "27fcdad9-57f4-4e87-8726-4f6e12d37e14",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "b482853c-8eb1-4f4b-9d79-b5cc4326ec18",
+                    "LayerId": "6b918b50-3d7e-4e4f-a64c-b5b62ff08208"
                 }
             ]
         }
@@ -52,6 +59,17 @@
             "name": "default",
             "opacity": 100,
             "visible": true
+        },
+        {
+            "id": "6b918b50-3d7e-4e4f-a64c-b5b62ff08208",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "bc4b9833-5ddd-4a2a-9955-9798f0277b26",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "playa",
+            "opacity": 42,
+            "visible": false
         }
     ],
     "origin": 4,

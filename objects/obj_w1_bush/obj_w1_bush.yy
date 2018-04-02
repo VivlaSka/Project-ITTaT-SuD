@@ -1,8 +1,8 @@
 {
-    "id": "79aae898-501c-4b72-ad43-4f4f1737d56d",
+    "id": "0f3c4e3e-3087-46fd-9118-c3527b33475f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_ground_left",
+    "name": "obj_w1_bush",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "0432b578-2669-4dc5-a76b-961c8128928a",
+    "spriteId": "38b93971-7d7b-4f5a-be03-998a33d5d15c",
     "visible": true
 }

@@ -1,5 +1,5 @@
-rechtKey = keyboard_check(vk_right);
-linksKey = keyboard_check(vk_left);
+rechtKey = keyboard_check(vk_right) || keyboard_check(ord("D"));
+linksKey = keyboard_check(vk_left) || keyboard_check(ord("Q"));
 jump = keyboard_check_pressed(vk_space);
 
 var move_player = rechtKey - linksKey;
@@ -8,7 +8,7 @@ horSpeed = move_player * stapSpeed;
 verSpeed = verSpeed + grav;
 
 if(place_meeting(x, y + 3, obj_ground_mid)) and (jump){
-	verSpeed = jumpH;	
+	verSpeed = jumpH;
 }
 
 if(place_meeting(x + horSpeed, y, obj_ground_mid)){
@@ -28,10 +28,18 @@ if(place_meeting(x, y + verSpeed, obj_ground_mid)){
 }
 
 y = y + verSpeed;
- 
-if(horSpeed != 0){
-	image_xscale = sign(horSpeed);
-	sprite_index = spr_player_run;
-}else{
-	sprite_index = spr_player_stand;
+
+relPosMuis = point_direction(x,y,mouse_x,mouse_y);
+
+
+if(relPosMuis < 90 or relPosMuis > 270){
+	image_xscale = 1;
 }
+else
+{
+	image_xscale = -1;	
+}
+
+
+
+

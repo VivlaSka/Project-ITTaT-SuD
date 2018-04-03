@@ -1,4 +1,3 @@
-recoil = 4;
-
+recoil = 5;
 ammo =20;
 delay = 20;

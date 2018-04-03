@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0262ea9e-e4d5-4eda-9718-774ca70d9a4c",
+            "Value": {
+                "id": "97b8266c-c336-42e4-ab0d-eee0e13e6a02",
+                "resourcePath": "objects\\obj_goomba\\obj_goomba.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0432b578-2669-4dc5-a76b-961c8128928a",
             "Value": {
                 "id": "30274dbb-2158-4b4d-a4aa-fe5cc66c11d8",
@@ -215,6 +223,14 @@
             }
         },
         {
+            "Key": "7a9ba0ba-34fd-4da5-b77a-0ec35108a047",
+            "Value": {
+                "id": "95a5f067-6043-49b6-bd25-d3e16bfa3c42",
+                "resourcePath": "sprites\\spr_goomba\\spr_goomba.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "80a66737-8112-4f94-9f4f-2f0d26c5be6e",
             "Value": {
                 "id": "a3a57497-55ca-415c-9673-13dcfd90ff1d",
@@ -295,6 +311,14 @@
             }
         },
         {
+            "Key": "b7e7500c-19d3-48c0-aa97-9d7808fc2342",
+            "Value": {
+                "id": "997168f1-699e-442d-9b08-6cb9e99cba92",
+                "resourcePath": "tilesets\\tile_w1_test\\tile_w1_test.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "bc4b9833-5ddd-4a2a-9955-9798f0277b26",
             "Value": {
                 "id": "dca3a4f1-aafc-4187-ab38-833c554ed7f4",
@@ -371,6 +395,22 @@
             "Value": {
                 "id": "7938304b-4f7c-458f-9a62-cef81ecf34d1",
                 "resourcePath": "sprites\\spr_player_jump\\spr_player_jump.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f6c7e2b2-42ba-424c-8c6b-6d5bfed645df",
+            "Value": {
+                "id": "2452c30a-9f90-4805-9d1a-6cf5c4ca4fa2",
+                "resourcePath": "sprites\\spr_w1_all\\spr_w1_all.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f748d462-adeb-4d28-acf6-33486e4a0ee3",
+            "Value": {
+                "id": "2fe8037b-f73b-471a-b794-8be635aec740",
+                "resourcePath": "sprites\\spr_goomba_dead\\spr_goomba_dead.yy",
                 "resourceType": "GMSprite"
             }
         },

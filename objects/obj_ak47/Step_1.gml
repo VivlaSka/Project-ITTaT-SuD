@@ -15,8 +15,8 @@ recoil = max(0, recoil - 1);
 if(mouse_check_button(mb_left) && delay < 0 && ammo > 0)
 {
 	delay = 5;
-	recoil = 4;
-	with(instance_create_layer(x + lengthdir_x(10, image_angle),y + lengthdir_y(6, image_angle), "Kogels", obj_kogel))
+	recoil = 5;
+	with(instance_create_layer(x + lengthdir_x(10, image_angle),y + lengthdir_y(5,image_angle), "Kogels", obj_kogel))
 	{
 		speed = 30;
 		direction = other.image_angle + random_range(-3, 3);

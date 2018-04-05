@@ -1,7 +1,7 @@
 
 if(!place_meeting(x,y, obj_player)) && (!isTouched)
 {
-	image_index = 0;	
+	image_index = 0;
 }
 else
 {

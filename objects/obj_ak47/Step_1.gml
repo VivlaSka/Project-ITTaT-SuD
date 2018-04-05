@@ -19,9 +19,8 @@ if(mouse_check_button(mb_left) && delay < 0 && ammo > 0)
 	with(instance_create_layer(x + lengthdir_x(10, image_angle),y + lengthdir_y(5,image_angle), "Kogels", obj_kogel))
 	{
 		speed = 30;
-		direction = other.image_angle + random_range(-3, 3);
+		direction = other.image_angle + random_range(other.minDevBullet, other.maxDevBullet);
 		image_angle = direction;
-		;
 	}
 	ammo = ammo - 1;
 	

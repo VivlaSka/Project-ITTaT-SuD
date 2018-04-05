@@ -1,10 +1,9 @@
 rechtKey = keyboard_check(vk_right) || keyboard_check(ord("D"));
 linksKey = keyboard_check(vk_left) || keyboard_check(ord("Q"));
-runKey = keyboard_check(vk_shift);
+loopKey = keyboard_check(vk_shift);
 jump = keyboard_check_pressed(vk_space);
 
 var move_player = rechtKey - linksKey;
-
 horSpeed = move_player * stapSpeed;
 verSpeed = verSpeed + grav;
 
@@ -12,22 +11,23 @@ if(place_meeting(x, y + 3, obj_ground_mid)) and (jump){
 	verSpeed = jumpH;
 }
 
+
+//voorspellen contact horizontaal en daarna bewegen in functie
 if(place_meeting(x + horSpeed, y, obj_ground_mid)){
 	while(!place_meeting(x + sign(horSpeed), y, obj_ground_mid )){
 		x += sign(horSpeed);
 	}
 	horSpeed = 0;
 }
-
 x += horSpeed;
 
+//voorspellen contact horizontaal en daarna bewegen in functie
 if(place_meeting(x, y + verSpeed, obj_ground_mid)){
 	while(!place_meeting(x , y + sign(verSpeed), obj_ground_mid)){
 		y += sign(verSpeed);
 	}
 	verSpeed = 0;
 }
-
 y += verSpeed;
 
 //draai personage in functie van positie van muis (eigenlijk angle van muis tov personage)
@@ -36,11 +36,11 @@ if(relPosMuis < 90 or relPosMuis > 270) image_xscale = 1;else image_xscale = -1;
 
 
 //Lopen, animatie van het lopen versnellen
-if(runKey){
+if(loopKey){
 	while(stapSpeed < 7){
 		stapSpeed++;	
 	}
-	image_speed = 2.3;
+	image_speed = 2;
 	stapSpeed = 7; 	
 }
 	

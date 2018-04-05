@@ -1,0 +1,1 @@
+Documentatie doornemen rond camera's, camera functie's en properties en er leren mee werken binnen mijn game

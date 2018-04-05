@@ -1,5 +1,6 @@
-horSpeed = 0;
-verSpeed = 0;
+horSpeed = 3;
+verSpeed = 5;
 stapSpeed = 5;
-//jumpH = -12;
 grav = 0.3;
+
+hp = 10;

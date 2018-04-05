@@ -1,3 +1,4 @@
+//animatie van de personage: General
 if(!place_meeting(x,y + 1, obj_ground_mid))
 {
 	sprite_index = spr_player_jump;

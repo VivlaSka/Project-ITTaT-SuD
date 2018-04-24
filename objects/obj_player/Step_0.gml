@@ -36,21 +36,27 @@ if(relPosMuis < 90 or relPosMuis > 270) image_xscale = 1;else image_xscale = -1;
 
 
 //Lopen, animatie van het lopen versnellen
-if(loopKey){
+if(loopKey and stamina > 0){
 	while(stapSpeed < 7){
 		stapSpeed++;	
 	}
 	image_speed = 2;
 	stapSpeed = 7; 	
+	stamina--;
 }
 	
 else{
 	while(stapSpeed > 5){
 		stapSpeed--;	
+		
 	}
 	image_speed = 1;
 	stapSpeed = 5;
+	stamina += 10;
+	
+	
 }
+
 
 
 

@@ -1,6 +1,6 @@
 x = mouse_x;
 y = mouse_y;
-image_speed = 0;
+
 if(mouse_check_button(mb_right)){
 	image_index = 1;
 	with(obj_ak47){

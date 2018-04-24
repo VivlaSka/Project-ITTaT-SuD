@@ -282,7 +282,7 @@
             "Key": "920d4f9e-4cd4-419a-955c-bf2e5d816ab5",
             "Value": {
                 "id": "bcec3e9e-c79b-4a2c-96bb-6c137d57635e",
-                "resourcePath": "sprites\\sprite18\\sprite18.yy",
+                "resourcePath": "sprites\\spr_crosshair\\spr_crosshair.yy",
                 "resourceType": "GMSprite"
             }
         },

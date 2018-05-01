@@ -1,0 +1,8 @@
+Q - Move Left
+D - Move Right
+Space - Jump
+Left Click - Shoot
+Right Click - Aim
+R - Reload
+Follow the instruction of Installer SuD.exe
+ to install the game.

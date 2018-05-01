@@ -1,4 +1,4 @@
-//animatie van de personage: General
+///@description Animatie sprites: General
 if(!place_meeting(x,y + 1, obj_ground_mid))
 {
 	sprite_index = spr_player_jump;
@@ -16,5 +16,8 @@ else
 	else
 	{
 		sprite_index = spr_player_run;
+		if(loopKey){
+			image_speed = 2;	
+		}
 	}
 }

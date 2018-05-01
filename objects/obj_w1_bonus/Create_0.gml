@@ -1,1 +1,2 @@
 isTouched = false;
+isntCreated = true;
